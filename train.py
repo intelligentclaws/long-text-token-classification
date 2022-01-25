@@ -33,7 +33,7 @@ def parse_args():
     parser.add_argument("--model", type=str, required=True)
     parser.add_argument("--lr", type=float, required=True)
     parser.add_argument("--output", type=str, default="../model", required=False)
-    parser.add_argument("--input", type=str, default="../input", required=False)
+    parser.add_argument("--input", type=str, default="../input/kaggledatasetfilekaggle", required=False)
     parser.add_argument("--max_len", type=int, default=1024, required=False)
     parser.add_argument("--batch_size", type=int, default=8, required=False)
     parser.add_argument("--valid_batch_size", type=int, default=8, required=False)
